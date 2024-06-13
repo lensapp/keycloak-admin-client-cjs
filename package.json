@@ -1,6 +1,6 @@
 {
   "name": "@lensapp/keycloak-admin-client-cjs",
-  "version": "22.0.5",
+  "version": "23.0.7",
   "description": "Keycloak Admin Client compiled in CommonJS.",
   "keywords": [
     "keycloak-admin-client",
@@ -20,7 +20,7 @@
   "author": "Mirantis Inc",
   "license": "MIT",
   "dependencies": {
-    "@keycloak/keycloak-admin-client": "22.0.5"
+    "@keycloak/keycloak-admin-client": "23.0.7"
   },
   "devDependencies": {
     "esbuild": "^0.17.3"
