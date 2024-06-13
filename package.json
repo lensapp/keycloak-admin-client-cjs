@@ -1,6 +1,6 @@
 {
-  "name": "@s3pweb/keycloak-admin-client-cjs",
-  "version": "22.0.1",
+  "name": "@lensapp/keycloak-admin-client-cjs",
+  "version": "22.0.5",
   "description": "Keycloak Admin Client compiled in CommonJS.",
   "keywords": [
     "keycloak-admin-client",
@@ -11,25 +11,19 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "esbuild dist/index.d.ts --platform=node --bundle --format=cjs --outfile=dist/index.js",
-    "prepublish": "npm run build",
-    "prepare": "husky install",
-    "release": "commit-and-tag-version -s"
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com//s3pweb/keycloak-admin-client-cjs.git"
+    "url": "https://github.com/lensapp/keycloak-admin-client-cjs.git"
   },
-  "author": "s3pweb",
+  "author": "Mirantis Inc",
   "license": "MIT",
   "dependencies": {
     "@keycloak/keycloak-admin-client": "22.0.5"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.4.2",
-    "@commitlint/config-conventional": "^17.4.2",
-    "commit-and-tag-version": "^11.0.0",
-    "esbuild": "^0.17.3",
-    "husky": "^8.0.3"
+    "esbuild": "^0.17.3"
   },
   "files": [
     "dist/**/*"
